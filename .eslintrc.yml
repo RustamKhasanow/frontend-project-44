@@ -7,9 +7,7 @@ overrides: []
 parserOptions:
   ecmaVersion: latest
 rules: {
-  "no-console": "off",
-  "semi": "off",
-  "import/extensions": "off",
-  "prefer-const": "off",
-  "export": "off"
+  "no-console": "off"
+  "import/extensions": "off"
+  "prefer-const": "off"
   }

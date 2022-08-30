@@ -2,12 +2,14 @@ env:
   browser: true
   commonjs: true
   es2021: true
-extends: standard-with-typescript
+extends: standard-with-javascript
 overrides: []
 parserOptions:
   ecmaVersion: latest
 rules: {
   "no-console": "off",
   "semi": "off",
-  "import/extensions": "off"
-}
+  "import/extensions": "off",
+  "prefer-const": "off",
+  "export": "off"
+  }

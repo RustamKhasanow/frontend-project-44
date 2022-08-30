@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RustamKhasanow/frontend-project-44.git"
@@ -18,8 +17,10 @@
   },
   "homepage": "https://github.com/RustamKhasanow/frontend-project-44#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
+  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },

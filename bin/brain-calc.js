@@ -1,9 +1,7 @@
 import {greeting} from "../src/cli.js";
 import readlineSync from 'readline-sync';
+import {getRandonInt} from '../src/cli.js';
 
-function getRandonInt(max = 10) {
-    return Math.floor(Math.random() * max);
-}
 let userName = greeting();
 console.log('What is the result of the expression?');
 let operations = ['+', '-', '*'];
@@ -30,7 +28,7 @@ for (let i = 0; i <=2; i += 1) {
         end += 1;
         console.log('Your answer "' + answer + '" . Correct!');
         } else { 
-          console.log('"' + answer + '"' + " is wrong answer ;(. Correct answer was " + '"' + solution + '"' + "Let's try again, " + userName + '!'); 
+          console.log('"' + answer + '"' + " is wrong answer ;(. Correct answer was " + '"' + solution + '" ' + "Let's try again, " + userName + '!'); 
           break; 
           }
 }

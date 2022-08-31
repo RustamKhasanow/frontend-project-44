@@ -11,7 +11,7 @@ if (answer === 'no') {
     console.log('Your answer "yes". Correct!');
     answer = readlineSync.question('Question: 7 ');
     if (answer === 'no') {
-      console.log('"' + answer + '"' + 'Your answer "no". Correct! Congratulations, ' + userName + '!');
+      console.log('Your answer "no". Correct! Congratulations, ' + userName + '!');
     } else {console.log('"' + answer + '"' + " is wrong answer ;(. Correct answer was 'no'. Let's try again, " + userName + '!');}
   } else {console.log('"' + answer + '"' + " is wrong answer ;(. Correct answer was 'yes'. Let's try again, " + userName + '!');}
 } else {console.log('"' + answer + '"' + " is wrong answer ;(. Correct answer was 'no'. Let's try again, " + userName + '!');}

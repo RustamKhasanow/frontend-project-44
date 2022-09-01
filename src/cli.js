@@ -18,3 +18,14 @@ export function getGcd(a, b) {
     };
     return result;
 }
+
+export function getProgression () {
+  const progression = [];
+  const step = getRandonInt(1, 9);
+  let previousElement = getRandonInt(1, 9);
+  for (let i = 0; i < 10; i += 1) {
+    progression[i] = previousElement;
+    previousElement += step; 
+  }
+  return progression;
+}
